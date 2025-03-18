@@ -144,7 +144,6 @@ body {
     width: fit-content;
     padding: 8px 16px;
     margin: 32px 0 0 auto;
-
     transition: 0.3s opacity;
 }
 
@@ -179,10 +178,15 @@ body {
 }
 
 .footer-page .social-media-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--black);
     background-color: var(--white);
     border-radius: 50%;
     transition: 0.3s color, 0.3s background-color, 0.3s border;
+    max-width: 36px;
+    max-height: 36px;
 }
 
 .footer-page .social-media-link a {
